@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+@import url(../src/Scss/header.css);
+@import url(../src/Scss/section1-1.css);
+@import url(../src/Scss/section2.css);
+@import url(../src/Scss/section3.css);
+@import url(../src/Scss/section4.css);
+@import url(../src/Scss/section5.css);
+
+*{
+    padding:0px;
+    box-sizing: border-box;
+    margin:0px;
+}
+.container{
+    width:85%;
+    margin:0 auto;
+}
+button{
+    outline:none;
+    padding:11px 35px;
+    border: none;
+    border-radius: 20px;
+}
+.relative{
+    position: absolute;
+    z-index: -10;
+    right: 0;
+    top: 0;
+}
+.relative .pattern img{
+    width:100%;
+}

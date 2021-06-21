@@ -1,0 +1,65 @@
+@font-face {
+  font-family: GabrielSans;
+  src: url(../Gabriel-Sans-Bold.2c85f91a.otf);
+}
+
+.section1 {
+  margin-top: 9rem !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 30px 0px;
+}
+
+.section1 .text {
+  width: 50%;
+  margin-top: 35px;
+}
+
+.section1 .text h1 {
+  font-family: GabrielSans;
+  font-size: 2.3em;
+  line-height: 3rem;
+  color: #292c37;
+}
+
+.section1 .text .p-text {
+  margin: 10% 0px;
+}
+
+.section1 .text .p-text p {
+  color: #6b6b6b;
+  font-size: 1.1em;
+  line-height: 1.8rem;
+  font-family: 'Barlow', sans-serif;
+}
+
+.section1 .text .download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section1 .text .download .dwnd-item {
+  width: 48%;
+}
+
+.section1 .text .download .dwnd-item img {
+  width: 100%;
+}
+
+.section1 .image {
+  width: 35%;
+}
+
+.section1 .image img {
+  width: 80%;
+}
+/*# sourceMappingURL=section1-1.css.map */

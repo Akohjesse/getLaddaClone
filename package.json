@@ -1,0 +1,11 @@
+{
+  "name": "getladda",
+  "version": "1.0.0",
+  "description": "Cloning Get ladda's landing page website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jesse Akoh",
+  "license": "ISC"
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+header {
+  padding-top: 3%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .logo {
+  width: 30%;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav ul li {
+  margin: 0px 25px;
+  font-family: 'Barlow', sans-serif;
+  list-style: none;
+  font-size: 1.1em;
+  font-weight: 400;
+  color: #1d2029;
+}
+
+header nav ul li:nth-child(1) {
+  color: #ffa137;
+}
+
+header .buttons button {
+  margin: 0px 5px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+header .buttons button:nth-child(1) {
+  background-color: #ffa137;
+  color: white;
+}
+
+header .buttons button:nth-child(2) {
+  background-color: white;
+  color: #ffa137;
+  border: 1px solid #ffa137;
+}
+/*# sourceMappingURL=header.css.map */

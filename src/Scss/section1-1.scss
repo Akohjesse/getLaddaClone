@@ -1,0 +1,47 @@
+@font-face {
+    font-family: GabrielSans;
+    src: url(../Gabriel-Sans-Bold.2c85f91a.otf);
+}
+
+.section1{
+    margin-top: 9rem !important;
+    display: flex;
+    justify-content: space-between;
+    padding:30px 0px;
+    .text{
+        width:50%;
+        margin-top:35px;
+        h1{
+            font-family: GabrielSans;
+            font-size: 2.3em;
+            line-height: 3rem;
+            color:#292c37;
+        }
+        .p-text{
+            margin:10% 0px;
+            p{
+             color:#6b6b6b;
+             font-size:1.1em;
+             line-height: 1.8rem;
+             font-family:'Barlow', sans-serif;
+            }
+        }
+        .download{
+            display: flex;
+            width:70%;
+            justify-content: space-between;
+            .dwnd-item{
+                width:48%;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .image{
+        width:35%;
+        img{
+           width: 80%;
+        }
+    }
+}
